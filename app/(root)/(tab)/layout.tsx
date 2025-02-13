@@ -33,6 +33,9 @@ const land = () => {
   const page9 = () => {
     router.push('./page9'); // Navigates to '/homesplash1' on press
   };
+  const questionaire1 = () => {
+    router.push('./questionaire1'); // Navigates to '/homesplash1' on press
+  };
   const page10 = () => {
     router.push('./page10'); // Navigates to '/homesplash1' on press
   };
@@ -218,6 +221,12 @@ const land = () => {
           <Image
             style={styles.less}
             source={require('@/assets/images/page9.jpg')}
+          />
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.con} onPress={questionaire1}>
+          <Image
+            style={styles.less}
+            source={require('@/assets/images/questionaire1.jpg')}
           />
         </TouchableOpacity>
         <TouchableOpacity style={styles.con} onPress={page10}>
