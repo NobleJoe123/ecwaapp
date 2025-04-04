@@ -488,6 +488,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
+  marqueeContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 10,
+  },
+  marqueeLogo: {
+    width: 50,
+    height: 50,
+    marginRight: 10,
+  },
+  marqueeText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
   logo: {
     width: 50,
     height: 50,
